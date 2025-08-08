@@ -1,12 +1,47 @@
-# React + Vite
+# YouTube Video CRUD with React + Supabase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple CRUD (Create, Read, Update, Delete) application for managing YouTube videos, built with **React**, **Vite**, and **Supabase**. 
+You can add video URLs, mark them as watched or not watched, and delete them — all from a clean and responsive UI.
 
-Currently, two official plugins are available:
+🎥 **Step-by-step tutorial available on My YouTube**  
+[![Watch the tutorial](https://i9.ytimg.com/vi/ImEnktezqKI/maxresdefault.jpg?v=68712a11&sqp=CKSc18QG&rs=AOn4CLDhZuSZGqi5L7s1R5jIv6XGeDuTqw)](https://youtu.be/ImEnktezqKI)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ List saved YouTube videos
+- ✅ Add new videos by pasting their URL
+- ✅ Toggle video status (Watched / Not Watched)
+- ✅ Delete videos from the list
+
+## Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Supabase](https://supabase.com/)
+
+## Getting Started
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/pab-mchn/crud-supabase-react.git
+cd crud-supabase-react
+```
+
+2. **Install dependencies**
+```
+npm install
+```
+3. **Set up environment variables**
+   
+Create a .env file at the root of the project with the following:
+
+```
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
+```
+3. **Start the development server**
+```
+npm run dev
+```
