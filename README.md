@@ -4,7 +4,7 @@ This project is a simple CRUD (Create, Read, Update, Delete) application for man
 You can add video URLs, mark them as watched or not watched, and delete them — all from a clean and responsive UI.
 
 🎥 **Step-by-step tutorial available on My YouTube**  
-[![Watch the tutorial](https://i9.ytimg.com/vi/ImEnktezqKI/maxresdefault.jpg?v=68712a11&sqp=CKSc18QG&rs=AOn4CLDhZuSZGqi5L7s1R5jIv6XGeDuTqw)](https://youtu.be/ImEnktezqKI)
+![Watch the tutorial](https://cdn.hashnode.com/res/hashnode/image/upload/v1752476554306/ac01c9e6-9060-4643-b4e2-a625eb5278a1.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp)
 
 
 ## Features
